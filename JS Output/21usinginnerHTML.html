@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Using innerHTML</h1>
+        <p>
+            To access an HTML element, you can use the document.getElementById(id) method.
+            <br>Use the id attribute to identify the HTML element.
+            <br>Then use the innerHTML property to change the HTML content of the HTML element:
+        </p>
+        <p><strong>Note:</strong>Changing the innerHTML property of an HTML element is the most common way to display data in HTML.
+        </p>
+        <br>
+        <br>
+        <p id="demo"></p>
+        <p id="demo1"></p>
+        <script>
+            document.getElementById("demo").innerHTML = "<h2>This is from script using innerHTML and included h2 tag<h2>"
+            document.getElementById("demo1").innerHTML = "<b>This is another fron script with bold</b>"
+        </script>
+    </body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>JavaScript in &lt;body&gt;</h1>
+        <pre>
+            In this example, a JavaScript function is placed in the &lt;body&gt; section of an HTML page.
+            The function is invoked (called) when a button is clicked:
+        </pre>
+        <p id="demo">This paragraph will change after clicking the below button</p>
+        <button type="button" onclick="myFunction()">Click Me</button>
+
+        <script>
+            function myFunction() {
+                document.getElementById("demo").innerHTML = "Paragraph Changed.";
+            }
+        </script>
+        <br>
+        <h2>Source Code:</h2>
+        <img src="011.png">
+    </body>
+</html>

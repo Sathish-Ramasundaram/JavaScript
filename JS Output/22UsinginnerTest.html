@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Using innerText</h1>
+        <p>To access an HTML element, use the document.getElementById(id) method.
+            <br>Then use the innerText property to change the inner text of the HTML element:
+        </p>
+        <p>
+            <strong>Note:</strong>
+            Use innerHTML when you want to change an HTML element.
+            <br>Use innerText when you only want to change the plain text.
+        </p>
+        </p>
+        <br>
+        <br>
+        <p id="demo2"></p>
+        <p id="demo"></p>
+        <p id="demo1"></p>
+        <script>
+            document.getElementById("demo2").innerText = "This is fron script using innerTEXT"
+            document.getElementById("demo").innerText = "<h2>This is from script using innerTEXT and included h2 tag<h2>"
+            document.getElementById("demo1").innerText = "<b>This is another fron script with bold</b>"
+        </script>
+    </body>
+</html>
